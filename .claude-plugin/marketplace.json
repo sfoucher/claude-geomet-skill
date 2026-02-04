@@ -10,7 +10,7 @@
   "plugins": [
     {
       "name": "geomet-catalog",
-      "source": "./skills/geomet-catalog",
+      "source": "./geomet-catalog",
       "description": "Browse, query, visualize, and export Canadian weather/climate/hydrometric/air quality data from the MSC GeoMet OGC API",
       "version": "1.0.0",
       "strict": false
