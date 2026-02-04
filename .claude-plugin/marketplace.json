@@ -1,0 +1,19 @@
+{
+  "name": "claude-geomet-skill",
+  "owner": {
+    "name": "sfoucher"
+  },
+  "metadata": {
+    "description": "Canadian weather, climate, hydrometric, and air quality data from ECCC GeoMet OGC API",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "geomet-catalog",
+      "source": "./skills/geomet-catalog",
+      "description": "Browse, query, visualize, and export Canadian weather/climate/hydrometric/air quality data from the MSC GeoMet OGC API",
+      "version": "1.0.0",
+      "strict": false
+    }
+  ]
+}
